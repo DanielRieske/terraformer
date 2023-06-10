@@ -104,6 +104,7 @@ func (p *GCPProvider) GetSupportedService() map[string]terraformutils.ServiceGen
 	services := ComputeServices
 	services["bigQuery"] = &GCPFacade{service: &BigQueryGenerator{}}
 	services["cloudFunctions"] = &GCPFacade{service: &CloudFunctionsGenerator{}}
+	services["cloudRun"] = &GCPFacade{service: &CloudRunGenerator{}}
 	services["cloudsql"] = &GCPFacade{service: &CloudSQLGenerator{}}
 	services["cloudtasks"] = &GCPFacade{service: &CloudTaskGenerator{}}
 	services["dataProc"] = &GCPFacade{service: &DataprocGenerator{}}

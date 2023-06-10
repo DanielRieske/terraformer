@@ -36,6 +36,9 @@ List of supported GCP services:
     * `google_cloudbuild_trigger` 
 *   `cloudFunctions`
     * `google_cloudfunctions_function`
+*   `cloudRun`
+    * `google_cloud_run_v2_job`
+    * `google_cloud_run_v2_service`
 *   `cloudsql`
     * `google_sql_database_instance`
     * `google_sql_database`
